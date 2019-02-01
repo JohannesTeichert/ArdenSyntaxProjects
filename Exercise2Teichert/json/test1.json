@@ -1,0 +1,73 @@
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 40
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 13000
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1200
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+maintenance:
+    title:          title;; 
+    mlmname:        PneumoniaMicrobiology;;
+    arden:          version 2.9;;
+    version:        0.1;;
+    institution:    FHJ;;
+    author:         Johannes Teichert;;
+    specialist:     Medexter Healthcare;;
+    date:           2018-05-29;;
+    validation:     testing;;
+library:
+   purpose: template mlm to show basic structure;;
+   explanation: description how this mlm works;;
+   keywords: ;;
+   citations: ;;
+   links: ;;
+knowledge:
+   type: data_driven;;
+   data:
+   		(fever, wb_count, cough, dyspnea, tachypnea) := Argument;
+     	hasFever := MLM 'Fever';
+     	include hasFever;
+     	hasLeukopenia := MLM 'Leukopenia';
+     	include hasLeukopenia;
+     	hasLeucocytosis := MLM 'Leucocytosis';
+     	include hasLeucocytosis;
+   ;;
+	priority: ;;
+	evoke: ;;
+	logic:
+	
+     conclude FALSE;
+   ;;
+	action: 
+        return TRUE;
+   ;;
+   urgency: ;;
+end:

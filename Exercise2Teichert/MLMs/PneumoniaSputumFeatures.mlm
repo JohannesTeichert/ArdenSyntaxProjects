@@ -1,0 +1,41 @@
+maintenance:
+    title:          title;; 
+    mlmname:        PneumoniaSputumFeatures;;
+    arden:          version 2.9;;
+    version:        0.1;;
+    institution:    FHJ;;
+    author:         Johannes Teichert;;
+    specialist:     Medexter Healthcare;;
+    date:           2018-05-29;;
+    validation:     testing;;
+library:
+   purpose: template mlm to show basic structure;;
+   explanation: description how this mlm works;;
+   keywords: ;;
+   citations: ;;
+   links: ;;
+knowledge:
+   type: data_driven;;
+   data: 
+        (purulent_sputum,
+        	sputum_color_change,
+        	sputum_odor_change,
+        	sputum_quantity_change,
+        	sputum_consistency_change
+        	):= Argument;
+   ;;
+	priority: ;;
+	evoke: ;;
+	logic: 
+     
+     conclude purulent_sputum OR 
+     sputum_color_change OR 
+     sputum_odor_change OR 
+     sputum_quantity_change OR
+     sputum_consistency_change;
+   ;;
+	action: 
+        return TRUE;
+   ;;
+   urgency: ;;
+end:

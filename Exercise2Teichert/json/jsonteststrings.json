@@ -1,0 +1,342 @@
+// ----- Pneumonia T1
+
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 40
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 13000
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1200
+    }
+  ]
+}
+
+// ----- Pneumonia T4
+
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 40
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 10000
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1200
+    }
+  ]
+}
+
+// ----- Pneumonia T6
+
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 40
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 8000
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1200
+    }
+  ]
+}
+
+// ----- Symptoms
+
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 40
+    },
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 13000
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 0
+    }
+  ]
+}
+
+
+// ----- Body Temperature (Fever)
+
+
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 40
+    }
+  ]
+}
+
+
+// ----- XRay
+
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    },
+    {
+      "type": "boolean",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 1
+    }
+  ]
+}
+
+// ----- Protected Brush Wimberley
+
+{
+  "type": "list",
+  "primaryTime": null,
+  "applicability": 1,
+  "values": [
+    {
+      "type": "number",
+      "primaryTime": null,
+      "applicability": 1,
+      "value": 10002
+    }
+  ]
+}
